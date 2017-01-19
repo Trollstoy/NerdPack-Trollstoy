@@ -1,0 +1,7 @@
+## Title: Starter Combat Routines
+## Notes: Starter Combat Routines for NerdPack
+## Interface: 70100
+## Author: Haxxxx
+## Dependencies: NerdPack
+
+Main.xml
