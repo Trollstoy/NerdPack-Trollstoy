@@ -1,12 +1,13 @@
-local _, Starter = ...
+local n_name, Trollstoy = ...
+local NeP = NeP
 
-Starter.Version = '1.0.0'
-Starter.Branch = 'RELEASE'
-Starter.Name = 'NerdPack - Starter Combat Routine'
-Starter.Author = 'Haxxxx'
+Trollstoy.Version = "1.0.0"
+Trollstoy.Branch = "RELEASE"
+Trollstoy.Name = "NerdPack - Starter Trollstoy Routine"
+Trollstoy.Author = "Trollstoy"
 
-local frame = CreateFrame('GameTooltip', 'Main_ScanningTooltip', UIParent, 'GameTooltipTemplate')
+local frame = CreateFrame("GameTooltip", "Main_ScanningTooltip", UIParent, "GameTooltipTemplate")
 
-Starter.class = select(3,UnitClass("player"))
+Trollstoy.class = select(3,UnitClass("player"))
 
-NeP.Library:Add('Starter', Starter)
+NeP.Library:Add("Trollstoy", Trollstoy)

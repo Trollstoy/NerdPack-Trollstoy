@@ -1,0 +1,7 @@
+## Title: Trollstoy Combat Routines
+## Notes: Trollstoy Combat Routines for NerdPack
+## Interface: 80000
+## Author: Trollstoy
+## Dependencies: NerdPack
+
+Main.xml

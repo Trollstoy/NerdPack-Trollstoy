@@ -4,4 +4,4 @@ local inCombat = {
 local outCombat = {
 }
 
-NeP.CR:Add(73, "[Starter] Warrior - Protection", inCombat, outCombat)
+NeP.CR:Add(73, { name = "[Trollstoy] Warrior - Protection", ic = inCombat, ooc = outCombat })
