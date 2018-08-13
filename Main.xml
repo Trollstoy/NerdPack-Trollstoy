@@ -5,7 +5,7 @@
   <Script file="core.lua" />
 
   <!-- Rotations -->
-  <Script file="warrior\fury.lua" />
-  <Script file="warrior\protection.lua" />
+  <Script file="rotations\warrior\fury.lua" />
+  <Script file="rotations\warrior\protection.lua" />
 
 </Ui>

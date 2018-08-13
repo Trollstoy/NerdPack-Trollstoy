@@ -1,3 +1,5 @@
+local NeP = NeP
+
 local Buffs = {
   { "Battle Shout", "!buff(Battle Shout)" },
 }
