@@ -1,10 +1,16 @@
 local NeP = NeP
 
 local Buffs = {
-  { "Battle Shout", "!buff(Battle Shout)" },
+  { "Battle Shout", "!player.buff(Battle Shout)" },
+}
+
+local Defensive = {
+  { "Victory Rush", "player.health < 80" },
 }
 
 local ST = {
+  { "Execute" },
+  { "Rampage" },
   { "Bloodthirst" },
   { "Raging Blow" },
   { "Whirlwind" },
@@ -12,6 +18,7 @@ local ST = {
 
 local inCombat = {
   { Buffs },
+  { Defensive },
   { ST },
 }
 
